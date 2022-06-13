@@ -1,0 +1,36 @@
+Arist�teles, S�crates e Plat�o estavam disputando uma competi��o de perguntas nas disciplinas de F�sica, 
+Matem�tica e Qu�mica. Cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar.
+
+Sabendo que: 
+- Arist�teles n�o ficou em primeiro em Qu�mica; 
+- S�crates perdeu para Plat�o em F�sica; 
+- Plat�o acertou mais que Arist�teles em Matem�tica.
+
+Informe quem ficou em 1�, 2� e 3� lugar em cada disciplina.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum reposit�rio e compartilhe
+o link no campo ao lado para que outros desenvolvedores possam analis�-lo.
+
+1� Arist�teles n�o ficou com primeiro lugar em qu�mica e matem�tica. Logo ele foi primeiro em f�sica
+
+2� Plat�o acertou mais que S�crates em f�sica.
+
+3� Como Plat�o acertou mais que Arist�teles em matem�tica e j� foi segundo em f�sica logo ele ficou em primeiro em matem�tica.
+
+4� S�crates n�o ficou com primeiro lugar em f�sica e matem�tica. Logo ele foi primeiro em qu�mica.
+
+5� Como Plat�o acertou mais que Arist�teles em matem�tica e S�crates j� foi terceiro em f�sica logo Arist�teles ficou em terceiro em matem�tica e S�crates ficou em segundo em matem�tica.
+
+6� Como Plat�o foi primeiro em matem�tica e segundo em f�sica. Logo ele foi terceiro em qu�mica e Arist�teles ficou em segundo em qu�mica.
+
+--------------------------------------------------------------------------------------------
+                            1�                   2�                      3�             
+--------------------------------------------------------------------------------------------
+F�sica              Arist�teles         Plat�o              S�crates        
+---------------------------------------------------------------------------------------------
+Matem�tica      Plat�o               S�crates           Arist�teles
+---------------------------------------------------------------------------------------------
+Qu�mica          S�crates            Arist�teles        Plat�o
+----------------------------------------------------------------------------------------------
+
+https://github.com/MarlonPaulo1/softex/tree/main/M%C3%B3dulo%201%20-%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20e%20Orienta%C3%A7%C3%A3o%20a%20Objetos/Projeto%2001
