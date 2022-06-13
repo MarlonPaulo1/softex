@@ -1,0 +1,34 @@
+Aristóteles, Sócrates e Platão estavam disputando uma competição de perguntas nas disciplinas de Física, 
+Matemática e Química. Cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar.
+
+Sabendo que: 
+- Aristóteles não ficou em primeiro em Química; 
+- Sócrates perdeu para Platão em Física; 
+- Platão acertou mais que Aristóteles em Matemática.
+
+Informe quem ficou em 1º, 2º e 3º lugar em cada disciplina.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe
+o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+1° Aristóteles não ficou com primeiro lugar em química e matemática. Logo ele foi primeiro em física
+
+2° Platão acertou mais que Sócrates em física.
+
+3° Como Platão acertou mais que Aristóteles em matemática e já foi segundo em física logo ele ficou em primeiro em matemática.
+
+4° Sócrates não ficou com primeiro lugar em física e matemática. Logo ele foi primeiro em química.
+
+5° Como Platão acertou mais que Aristóteles em matemática e Sócrates já foi terceiro em física logo Aristóteles ficou em terceiro em matemática e Sócrates ficou em segundo em matemática.
+
+6° Como Platão foi primeiro em matemática e segundo em física. Logo ele foi terceiro em química e Aristóteles ficou em segundo em química.
+
+--------------------------------------------------------------------------------------------
+                            1°                   2°                      3°             
+--------------------------------------------------------------------------------------------
+Física              Aristóteles         Platão              Sócrates        
+---------------------------------------------------------------------------------------------
+Matemática      Platão               Sócrates           Aristóteles
+---------------------------------------------------------------------------------------------
+Química          Sócrates            Aristóteles        Platão
+----------------------------------------------------------------------------------------------
