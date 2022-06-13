@@ -1,0 +1,32 @@
+Em uma sala de aula, há vinte e cinco alunos.
+Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M).
+Eles são divididos conforme a ilustração 1 em anexo.
+
+Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em
+anexo.
+
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de 
+uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a 
+ilustração 3 em anexo.
+
+Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a 
+troca de alunos e qual a disciplina de cada um. 
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o 
+link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+A sala na imagem 2 esta organizada em um padrão de colunas e linhas no qual os alunos foram divididos por 
+matéria em um formato:
+
+Colunas                                         Linhas
+
+2 4 2 4 2 4 Alunos P                    4 2 2 4 2 4 Alunos P
+4 2 4 2 4 2 Alunos M                   2 4 4 2 4 2 Alunos M
+
+Já na imagem 3 o padrão de organização esta no formato:
+
+Colunas                                       Linhas
+2 4 2 4 3 4 Alunos P                  4 2 2 4 3 4 Alunos P
+4 2 4 2 3 2 Alunos M                 2 4 4 2 3 2 Alunos M
+
+Logo na 5° linha da 5° coluna um aluno trocou de M para P.
