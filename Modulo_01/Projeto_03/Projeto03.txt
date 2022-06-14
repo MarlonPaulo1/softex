@@ -11,10 +11,11 @@ No algoritmo, descreva como será:
 2. Elaborada a declaração das variáveis;
 3. Utilizado o comando de atribuição.
 
-Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o
+ link no campo ao lado para que outros desenvolvedores possam analisá-lo.
 
 caracter nome <- José Almeida da Silva
-inteiro cpf <- 12345678900
-inteiro rg <- 9517530
+caracter cpf <- 12345678900
+caracter rg <- 9517530
 real altura <- 1.78
 caracter endereco <- Rua A, 380 – Centro – Recife/PE
