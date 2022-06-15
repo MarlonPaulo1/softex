@@ -1,0 +1,247 @@
+Após uma prova de vestibular, uma escola quer identificar quantos dos seus alunos foram aprovados em cada 
+turma de formandos. Ela quer saber qual aluno teve a maior nota e de qual turma ele é. Nessa escola, há quatro
+ turmas (A, B, C e D) com vinte e cinco alunos cada.
+
+Elabore um algoritmo que solicite o nome e a nota do vestibular aos alunos. Depois, informe quantos deles foram 
+aprovados, de que turma são, qual a maior nota em cada turma e qual aluno teve a maior nota de todas.
+
+Para que o aluno seja aprovado no vestibular, ele deverá obter nota maior ou igual a 7.
+
+ATENÇÃO: As notas por turma não podem se repetir.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o 
+link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+caracter nomeMaiorNotaTurmaA 
+inteiro aprovadosTurmaA
+real maiorNotaTurmaA 
+
+caracter nomeMaiorNotaTurmaB 
+inteiro aprovadosTurmaB 
+real maiorNotaTurmaB 
+
+caracter nomeMaiorNotaTurmaC 
+inteiro aprovadosTurmaC 
+real maiorNotaTurmaC 
+
+caracter nomeMaiorNotaTurmaD 
+inteiro aprovadosTurmaD 
+real maiorNotaTurmaD 
+
+caracter alunoMaiorNota
+caracter turmaMaiorNota
+
+caracter nomeAluno  
+real nota 
+caracter turma 
+inteiro contador
+inteiro somaAprovados 
+
+contador <- 1
+
+repita
+
+	escreva("Escolha qual turma emtre A, B, C e D: ")
+	leia(turma)
+
+	escolha turma
+
+   		caso A
+			
+			aprovadosTurmaA <- 0
+			maiorNotaTurmaA <- 0
+
+			para i de 1 até 25 passo 1 faca
+      			
+				escreva("Digite o nome do aluno: ")
+				leia(nomeAluno)
+				escreva("Digite a nota do aluno: ")
+				leia(nota)
+				
+				se nota >= 7 entao
+					
+					aprovadosTurmaA <- aprovadosTurmaA + 1
+					
+				fimse
+
+				se nota > maiorNotaTurmaA entao
+
+					nomeMaiorNotaTurmaA <- nomeAluno
+					maiorNotaTurmaA <- nota
+
+				fimse
+				
+			fimpara
+
+			contador <- contador + 1
+
+   		caso B
+
+			aprovadosTurmaB <- 0
+			maiorNotaTurmaB <- 0
+
+			para i de 1 até 25 passo 1 faca
+      			
+				escreva("Digite o nome do aluno: ")
+				leia(nomeAluno)
+				escreva("Digite a nota do aluno: ")
+				leia(nota)
+				
+				se nota >= 7 entao
+					
+					aprovadosTurmaB <- aprovadosTurmaB + 1
+					
+				fimse
+
+				se nota > maiorNotaTurmaB entao
+
+					nomeMaiorNotaTurmaB <- nomeAluno
+					maiorNotaTurmaB <- nota
+
+				fimse
+				
+			fimpara
+
+			contador <- contador + 1
+
+   		caso C
+
+			aprovadosTurmaC <- 0
+			maiorNotaTurmaC <- 0
+
+			para i de 1 até 25 passo 1 faca
+      			
+				escreva("Digite o nome do aluno: ")
+				leia(nomeAluno)
+				escreva("Digite a nota do aluno: ")
+				leia(nota)
+				
+				se nota >= 7 entao
+					
+					aprovadosTurmaC <- aprovadosTurmaC + 1
+					
+				fimse
+
+				se nota > maiorNotaTurmaC entao
+
+					nomeMaiorNotaTurmaC <- nomeAluno
+					maiorNotaTurmaC <- nota
+
+				fimse
+				
+			fimpara
+
+			contador <- contador + 1
+
+   		caso D
+
+			aprovadosTurmaD <- 0
+			maiorNotaTurmaD <- 0
+
+			para i de 1 até 25 passo 1 faca
+      			
+				escreva("Digite o nome do aluno: ")
+				leia(nomeAluno)
+				escreva("Digite a nota do aluno: ")
+				leia(nota)
+				
+				se nota >= 7 entao
+					
+					aprovadosTurmaD <- aprovadosTurmaD + 1
+					
+				fimse
+
+				se nota > maiorNotaTurmaD entao
+
+					nomeMaiorNotaTurmaD <- nomeAluno
+					maiorNotaTurmaD <- nota
+
+				fimse
+				
+			fimpara
+			
+			contador <- contador + 1
+			
+   		outrocaso
+
+      		escreva("Turma invalida")
+
+		fimescolha
+
+ate (contador > 4)
+
+somaAprovados <- aprovadosTurmaA + aprovadosTurmaB + aprovadosTurmaC + aprovadosTurmaD
+
+se maiorNotaTurmaA > maiorNotaTurmaB entao
+
+	se maiorNotaTurmaC > maiorNotaTurmaD entao
+		
+		se maiorNotaTurmaA > maiorNotaTurmaC entao
+		
+			alunoMaiorNota <- nomeMaiorNotaTurmaA
+			turmaMaiorNota <- "A"
+		
+		senao
+
+			alunoMaiorNota <- nomeMaiorNotaTurmaC
+			turmaMaiorNota <- "C"
+
+		fimse
+		
+	senao
+
+		se maiorNotaTurmaA > maiorNotaTurmaD entao
+		
+			alunoMaiorNota <- nomeMaiorNotaTurmaA
+			turmaMaiorNota <- "A"
+		
+		senao
+
+			alunoMaiorNota <- nomeMaiorNotaTurmaD
+			turmaMaiorNota <- "D"
+
+		fimse
+
+	fimse
+
+senao
+
+	se maiorNotaTurmaC > maiorNotaTurmaD entao
+		
+		se maiorNotaTurmaB > maiorNotaTurmaC entao
+		
+			alunoMaiorNota <- nomeMaiorNotaTurmaB
+			turmaMaiorNota <- "B"
+		
+		senao
+
+			alunoMaiorNota <- nomeMaiorNotaTurmaC
+			turmaMaiorNota <- "C"
+
+		fimse
+		
+	senao
+
+		se maiorNotaTurmaB > maiorNotaTurmaD entao
+		
+			alunoMaiorNota <- nomeMaiorNotaTurmaB
+			turmaMaiorNota <- "B"
+		
+		senao
+
+			alunoMaiorNota <- nomeMaiorNotaTurmaD
+			turmaMaiorNota <- "D"
+
+		fimse
+
+	fimse
+	
+fimse
+
+escreva("Quantidade Total de alunos aprovados: ", somaAprovados)
+escreva("Quantidade de alunos aprovados na turma A: ", aprovadosTurmaA)
+escreva("Quantidade de alunos aprovados na turma B: ", aprovadosTurmaB)
+escreva("Quantidade de alunos aprovados na turma C: ", aprovadosTurmaC)
+escreva("Quantidade de alunos aprovados na turma D: ", aprovadosTurmaD)
+escreva("O aluno com a maior nota foi: ", alunoMaiorNota)
+escreva("A turma do aluno com a maior nota é a ", turmaMaiorNota)
