@@ -1,0 +1,51 @@
+Faça um algoritmo de ordenação utilizando o método insertion sort.
+Crie um método que execute as seguintes operações:
+
+- Tamanho do vetor: 30;
+- Utilize números ímpares;
+- Opere em ordem crescente.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o 
+link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+programa {
+
+funcao imprimir (inteiro vetor [], inteiro tamanho) {
+	inteiro i
+	
+	para (i = 0; i < tamanho; i++)
+		escreva (vetor [i], " ")
+	escreva ("\n")
+}
+
+funcao inicio () {
+	inteiro vetor [30] = {35, 45, 7, 47, 11, 3, 9, 67, 33, 27, 41, 61, 25, 69, 31, 53, 59, 51, 65, 55, 23, 19, 43, 57, 5, 15, 13, 63, 1, 17}
+	inteiro copia, indice, i
+
+	imprimir(vetor, 30)
+
+	para (i = 1; i < 30; i++) {
+		copia = vetor [i]
+		indice = i
+
+		enquanto (indice > 0 e vetor [indice - 1] > copia) {
+			vetor [indice] = vetor [indice - 1]
+			indice--
+		}
+		
+		vetor [indice] = copia
+	}
+
+	imprimir (vetor, 30)
+}
+
+}
+
+
+
+
+
+
+
+
+
