@@ -1,0 +1,117 @@
+Classifique dois objetos materiais e dois abstratos. Insira, no mínimo, três métodos e três atributos para cada.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o 
+link no campo ao lado para que outros desenvolvedores possam analisá-lo.  
+
+
+
+Classe Carro
+
+marca: Caractere
+placa: Caractere
+velocidade_atual: Inteiro
+chave_virada: Logico
+
+FimClasse
+
+Metodo Virar_chave()
+	chave_virada = Verdadeiro
+FimMetodo
+
+Metodo Ligar(chave_virada)
+	Se (chave_virada) entao
+		Escreva("Carro ligado")
+	Senao
+		Escreva("Carro desligado")
+FimMetodo
+
+Metodo Velovidade_maxima()
+	Se velocidade_atual = 220 entao
+		Escreva("Carro na velocidade maxima")
+	Senao
+		Escreva("Carro abaixo da velocidade maxima")
+FimMetodo
+------------------------------------------------------------------------------------------------------------------------------------
+
+Classe Operacoes
+
+numero_1: Real
+numero_2: Real
+resultado: Real
+operacao: Caractere
+
+FimClasse
+
+Metodo Soma(operacao)
+	se operacao = "+" entao
+		resultado = numero_1 + numero_2
+FimMetodo
+
+Metodo Subtracao(operacao)
+	se operacao = "-" entao
+		resultado = numero_1 - numero_2
+FimMetodo
+
+Metodo Multiplicacao(operacao)
+	se operacao = "*" entao
+		resultado = numero_1 * numero_2
+FimMetodo
+
+Metodo Divisao(operacao)
+	se operacao = "/" entao
+		resultado = numero_1 / numero_2
+FimMetodo
+
+Metodo Tipo_Operacao()
+	operacao = "+"
+FimMetodo
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Classe Triangulo
+
+altura: Real
+base: Real
+lado: Real
+tipo: Caractere
+area: Real
+volume: Real
+lado_base: Real
+
+FimClasse
+
+Metodo Area()
+	area = (base * altura) / 2
+FimMetodo
+	
+Metodo Volume_Piramide()
+	volume = ((lado_base * lado_base) * altura) / 3
+FimMetodo
+
+Metodo Tipo_Triangulo()
+	tipo = "Equilátero"
+FimMetodo
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Classe Cachorro()
+
+nome: Caractere
+idade: Inteiro
+raça: Caractere
+tempo: Caractere
+
+FimClasse
+
+Metodo Sair_Para_Passear(tempo)
+	se tempo = "Chuva" então
+		Escreva("Ficar em casa")
+	Senao
+		Escreva("Sair para passear")
+FimMetodo
+
+Metodo Clima()
+	tempo = "Sol"
+FimMetodo
+
+Metodo Nome_Doguinho()
+	nome = "Ajudante de Papai Noel"
+FimMetodo
