@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin=""></script>
+   <link rel="stylesheet" href="../styles/global.css">
+   <link rel="stylesheet" href="../styles/pontosTuristicos.css">
+    <title>Visite Também</title>
+</head>
+<body>
+    <div class="container">
+        <header id="home">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">Locais +</a>
+                        <ul>
+                            <li><a href="#museu-cais-do-sertão">Museu Cais do Sertão</a></li>
+                            <li><a href="#paço-do-frevo">Paço do Frevo</a></li>
+                            <li><a href="#bar-teatro-mamulengo">Bar Teatro Mamulengo</a></li>
+                            <li><a href="#parque-das-esculturas">Parque das Esculturas </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+
+                <div class="toggle">
+                    <div class="toggle-button"></div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="museu-cais-do-sertão" class="local">
+                <div class="text">
+                    <h2>Museu Cais do Sertão</h2>
+                    <p>Construído no local de antigos armazéns do Porto do Recife, o Cais do Sertão oferece aos visitantes exposições temporárias e acervo permanente, com referências à cultura sertaneja da região Nordeste, com experiências sensoriais e arquitetura inovadora, em edificação que exprime em seus traços a união do litoral com o sertão.</p>
+                    <p>Os horários de funcionamento serão reduzidos: 10h às 16h dias de quinta e sexta e 11h às 17h aos sábados, domingos e feriados.</p>
+                    <a href="https://www.instagram.com/caisdosertao/" target="_blank">Saiba Mais</a>
+                </div>
+                <div class="imagem">
+                    <img src="../images/museu-cais-do-sertão.jpg" alt="Museu Cais do Sertão">
+                </div>
+            </section>
+
+            <section id="paço-do-frevo" class="local">
+                <div class="imagem">
+                    <img src="../images/paco-do-frevo.jpeg" alt="Paço do Frevo">
+                </div>
+                <div class="text">
+                    <h2>Paço do Frevo</h2>
+                    <p>O Paço do Frevo é um centro de referência de ações, projetos e atividades de documentação, transmissão, salvaguarda e valorização de uma das principais tradições culturais brasileiras, reconhecida como Patrimônio Imaterial da Humanidade pela Unesco: o frevo. Um lugar para estudar, criar, experimentar e vivenciar o rico universo de histórias, personalidades, memórias e linguagens artísticas.</p>
+                    <p>Localizado no Bairro do Recife, além de se valer de conteúdos e linguagens diversas para manter vivo o ritmo que embalou a formação da identidade cultural recifense, o equipamento promove oficinas e apresentações musicais regulares em quatro pavimentos de atividades, que oferecem aos visitantes a possibilidade de experimentar o Carnaval recifense durante todo o ano.</p>
+                    <p>Horário de funcionamento: Terças a sextas, das 9h às 17h;  sábados e domingos, das 14h às 18h; Fechado às segundas. Entrada: R$ 8 e R$ 4 (meia). Gratuito às terças-feiras.</p>
+                    <a href="https://pacodofrevo.org.br/" target="_blank">Saiba Mais</a>
+                </div>
+                
+            </section>
+
+            <section id="bar-teatro-mamulengo" class="local">
+                <div class="text">
+                    <h2>Bar Teatro Mamulengo</h2>
+                    <p>É um bar e centro cultural de Teatro de Mamulengo. Localizado no centro histórico, diante da Praça do Arsenal. Ambiente acolhedor, comida farta e ótima música.</p>
+                    <a href="https://www.instagram.com/barteatromamulengo/" target="_blank">Saiba Mais</a>
+                </div>
+                <div class="imagem">
+                    <img src="../images/teatro-mamulengo.jpg" alt="Bar Teatro Mamulengo">
+                </div>
+            </section>
+
+            <section id="parque-das-esculturas" class="local">
+                <div class="imagem">
+                    <img src="../images/parque-das-esculturas.jpg" alt="Parque das Esculturas Francisco Brennand">
+                </div>
+                <div class="text">
+                    <h2>Parque das Esculturas Francisco Brennand</h2>
+                    <p>O Parque de Esculturas é composto por obras do artista plástico Francisco Brennand, e foi inaugurado como comemoração dos 500 anos de descobrimento do Brasil. Foi instalado sobre o molhe do porto. Tartarugas, pelicanos, ovos, maçarico, pássaros roca e sentinela guardam a principal obra do parque, a torre de cristal, inspirada em uma flor descoberta pelo paisagista Roberto Burle Marx. A travessia do Marco Zero até o parque funciona diariamente, das 7h às 17h.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Parque_das_Esculturas_Francisco_Brennand" target="_blank">Saiba Mais</a>
+                </div>
+                
+            </section>
+        </main>
+
+        <div id="localizacao" class="localizacao">
+            <h2>Localização</h2>
+            <div id="map"></div>
+        </div>
+
+        <footer id="contato">
+            <div class="form-container">
+                <h3>Contato:</h3>
+                <form>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="marcozero@contato.com">
+                </form>
+            </div> 
+            <div class="links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>    
+        </footer> 
+    </div>
+    
+    <script src="../js/index.js"></script>
+    <script src="../js/map.js"></script>
+</body>
+</html>
