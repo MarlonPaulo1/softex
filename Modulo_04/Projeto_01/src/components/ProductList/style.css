@@ -1,0 +1,27 @@
+.Product_list {
+    width:  min(1200px, 90%);
+    margin: 0 auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+    place-content: center;
+}
+
+@media(max-width:1050px) {
+    .Product_list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width:840px) {
+    .Product_list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:565px) {
+    .Product_list {
+        grid-template-columns: 1fr;
+    }
+}
