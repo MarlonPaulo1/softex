@@ -1,0 +1,15 @@
+.card-status {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-dark);
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+    margin-left: 9.6rem;
+}
+
+@media (max-width:680px) {
+    .card-status {
+        margin-left: 0;
+    }
+}

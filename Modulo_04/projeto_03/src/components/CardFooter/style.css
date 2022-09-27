@@ -1,0 +1,30 @@
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding-top: 1rem;
+    margin-left: 9.6rem;
+}
+
+.card-footer .card-footer-top,
+.card-footer .card-footer-botton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width:680px) {
+    .card-footer {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:530px) {
+    .card-footer .card-footer-top,
+    .card-footer .card-footer-botton {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+}
