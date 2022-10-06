@@ -1,0 +1,57 @@
+.card-container {
+    background-color: var(--bg-card-color);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 250px;
+    height: 250px;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.images{
+    width: 100%;
+    height: 120px;
+}
+
+.images img {
+    width: 200px;
+    height: 150px;
+}
+
+.bio-pokemon {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.id {
+    color: var(--nav-bg-color);
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+
+.group-type {
+    background-color: var(--type-color);
+    padding: 0.3rem 0.8rem ;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+    text-transform: capitalize;
+}
+
+.name {
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+@media (max-width: 570px) {
+    .card-container {
+        margin: 1rem auto;
+    }
+}

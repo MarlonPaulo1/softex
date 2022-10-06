@@ -1,0 +1,25 @@
+:root {
+    --bg-color: #f9ebf2;
+    --bg-card-color: #f3e2e8;
+    --nav-bg-color: #3c363b;
+    --nav-text-color: #fcd7da;    
+    --text-color: #000000;
+    --type-color: #f58f9a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body , input {
+    font-family: 'Roboto', sans-serif;    
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+
