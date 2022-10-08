@@ -1,0 +1,28 @@
+:root {
+    --bg-color: #f1f1f1;
+    --card-color: #ffffff;
+    --text-color: #404040;
+    --button-color: #70ff43;
+    --td-color: #ffe6ff;
+    --th-color: #191780;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+.App {
+    width: min(1200px, 90%);
+    margin: 0 auto;
+    padding: 2rem 0;
+}
