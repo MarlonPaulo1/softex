@@ -1,0 +1,23 @@
+:root {
+    --gradient: linear-gradient(to right, #000000, #434343);
+    --text-color: #fafafa; 
+    --input-background: #171717;
+    --button-backgroung: #fde047;
+    --button-hover: #fef08a;
+    --placeholder-color: #71717a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body , button, input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
