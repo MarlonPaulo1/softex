@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "category": "electronics",
+      "price": 4000,
+      "description": "This is description about product 1"
+    },
+    {
+      "id": 2,
+      "title": "Product 20",
+      "category": "books",
+      "price": 1000,
+      "description": "This is description about product 20"
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "category": "books",
+      "price": 1000,
+      "description": "This is description about product 3"
+    },
+    {
+      "id": 5,
+      "title": "Product 5",
+      "category": "books",
+      "price": 4500,
+      "description": "This is description about product 5"
+    }
+  ]
+}
